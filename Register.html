@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=IM+Fell+Great+Primer+SC&family=Kelly+Slab&display=swap" rel="stylesheet">
+    <title>Sea of FTars</title>
+</head>
+<body>
+    <nav>
+        <a href="Main Page.html"><img class="img-logo-navbar" src="Images/logo.png" alt="Main Page logo"></a>
+        <ul>
+            <li><a href="Characters.html">Characters</a></li>
+            <li><a href="Character Details.html">Character Details</a></li>
+            <li><a href="Fan Arts.html">Fan Arts</a></li>
+        </ul>
+        <a class="register" href="Register.html">REGISTER HERE!</a>
+    </nav>
+
+    <div class="header">
+        <h3>Register Account</h3>
+    </div>
+
+    <form id="register-form">
+
+        <div class="gap">
+        </div>
+
+        <div class="form-group">
+            <label>Username</label>
+            <p>(max. 20 characters)<br></p>
+            <input type="text" id="name" class="input" />
+        </div>
+
+        <div class="gap">
+        </div>
+
+        <div class="form-group">
+            <label>Region<br></label>
+            <select name="format" id="region" class="input" >   
+                <option value="dry">Asia</option>
+                <option value="regular">Europe</option>
+                <option value="regular">America</option>
+                <option value="regular">SAR</option>
+            </select>
+        </div>
+
+        <div class="gap">
+        </div>
+
+        <div class="form-group">
+            <label>E-mail<br></label>
+            <input type="email" id="email" class="input" />
+        </div>
+
+        <div class="gap">
+        </div>
+
+        <div class="form-group">
+            <label>Password<br></label>
+            <input type="password" id="password" class="input" />
+        </div>
+
+        <div class="gap">
+        </div>
+
+        <div class="form-group">
+            <label>Confirm Password<br></label>
+            <input type="password" id="confirm" class="input" />
+        </div>
+
+        <div class="gap">
+        </div>
+
+        <div style="margin-top: 1rem" class="form-group">
+            <input type="checkbox" id="terms" />
+            <label for="terms">
+                &nbsp;I Agree to the Terms of Service
+            </label>
+        </div>
+
+        <ul id="error"></ul>
+
+        <div class="gap">
+        </div>
+
+        <input type="submit" class="submit" />
+
+        <div class="gap">
+        </div>
+
+    </form>
+
+    <div class=footer>
+        <img class="img-logo-footer" src="Images/logo.png" alt="Footer logo">
+        <div class="footer-text">
+            <h1>~efteStudio~</h1>
+            <p>Copyright © efteStudio. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script src="Register.js"></script>
+</body>
+</html>

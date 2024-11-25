@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url('Images/HCI Background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav{
+    background: #213786;
+    border-bottom: 0.001em solid #AFB5CC;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    height: 5em;
+    width: 100%;
+    inset: 0;
+}
+
+nav ul{
+    list-style: none;
+    margin-top: 0;
+    margin-left: 0.9em;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #87ff93;
+    font-family: 'Kelly Slab';
+    font-size: 1.8em;
+    text-transform: uppercase;
+    padding: 0.8em 0.8em;
+    background-image: linear-gradient(#2E66FF, #213786);
+    outline: 0.001em solid #AFB5CC;
+}
+
+nav ul li a:hover{
+    text-shadow: 0 0 0.5em white;
+    background-image: linear-gradient(180deg, #7096FF 0%, rgba(130, 145, 199, 0) 100%);
+}
+
+nav a .img-logo-navbar {
+    margin-left: 1em;
+    width: 15em;
+}
+
+.register{
+    margin-left: auto;
+    margin-right: 0.75em;
+    width: 8em;
+    text-decoration: none;
+    padding: 0.5em;
+    background-image: linear-gradient(#1A2D74, #3D7187, #1A2D74);
+    border-radius: 0.5em;
+    outline: 0.05em solid #87ff93;
+    text-align: center;
+    color: #87ff93;
+    font-family: 'Kelly Slab';
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.register:hover{
+    text-shadow: 0 0 0.5em white;
+    background-image: linear-gradient(#1A2D74, #719AAB, #1A2D74);
+}
+
+.header h3{
+    font-family: 'IM FELL Great Primer SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #87ff93;
+    margin-top: 2em;
+    margin-bottom: 0.6em;
+}
+
+.header h1{
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    max-width: 52.6875em;
+    margin-bottom: 1.5em;
+}
+
+.submitart{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #002ABE;
+    width: 10em;
+    padding: 0.3em;
+    text-decoration: none;
+    outline: 0.05em solid #87FF93;
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1em;
+    text-align: center;
+    color: #C0FFC7;
+}
+
+.fanart{
+    margin-top: 5em;
+    display:flex;
+}
+
+.artsection{
+    margin-left: 5em;
+    width: 36.0625em;
+    height: auto;
+    background: rgba(33, 55, 134, 0.6);
+    text-align: center;
+}
+.artsection h2{
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.375em;
+    color: #87FF93;
+    text-align: left;
+    margin-left: 0.825em;
+}
+.artsection h1{
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: white;
+    text-align: left;
+    margin-left: 1.35em;
+    margin-top: 0.2em;
+    margin-bottom: 0.1em;
+}
+.artsection p{
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    color: white;
+    text-align: left;
+    margin-left: 1.7em;
+    margin-bottom: 2em;
+    padding-bottom: 1.5em;
+}
+
+.fanartimg{
+    margin-top: 2.1em;
+    width: 32em;
+    height: auto;
+    margin-bottom: 0.75em;
+}
+
+.footer{
+    width: 100%;
+    height: 23.5625em;
+    
+    background: rgba(53, 0, 95, 0.5);
+}
+.img-logo-footer{
+    width: 36.875em;
+    padding-top: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-text h1{
+    font-family: 'IM Fell Great Primer SC';
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-size: 3.75em;
+    font-weight: 400;
+}
+.footer-text p{
+    font-family: 'Kelly Slab';
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-size: 1.25em;
+    font-weight: 400;
+}
